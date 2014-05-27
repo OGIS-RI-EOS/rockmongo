@@ -61,3 +61,10 @@ Contributing
 Somebody who want to contribute to the project, may help us by doing these:
 * Translate messages from English to other languages (you can see them in app/langs directory)
 * Make donations here: http://rockmongo.com/donation
+
+命名規約
+--------------------------------------
+ブランチ及びタグについての命名規約は以下の通りとします。
+* ブランチ: 該当コミットから ${ベースとなった本家のバージョン}-base という名前でブランチを切ってください
+* タグ    : ${オージスとしてのリリースバージョン}-${ベースとなった本家のバージョン}でタグを打ってださい
+
