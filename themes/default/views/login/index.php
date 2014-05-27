@@ -51,13 +51,6 @@ function r_show_more_options(btn) {
 			<td><input type="password" name="password" style="width:150px"/></td>
 		</tr>
 		<tr>
-			<td colspan="2" style="background:#eee"><strong>Non-Admin users:</strong></td>
-		</tr>
-		<tr>
-			<td valign="top">DB Name(s):</td>
-			<td><input type="text" name="db" style="width:150px" value="<?php h($db); ?>"/><br/></td>
-		</tr>
-		<tr>
 			<td colspan="2"><a href="#" onclick="return r_show_more_options(this)" id="more_options_btn">More &raquo;</a></td>
 		</tr>
 		<tbody style="display:none" id="more_options">
